@@ -1,0 +1,32 @@
+'''
+350  Amon - the son of blacksmiths
+    the son of a blacksmiths who was born with great psionic
+keywords:
+
+M:6  H:8  A:6+ C:20
+
+this model equip with：one Blacksmith Hammer,Roughing Armor,Ancestral Talisman
+
+MeleeWeapon:                Range       Attacks     Tohits      To      Rend        Damage
+    Blacksmith Hammer:      1+            4           2+        3+       -1           1
+
+Abilities:
+StarPsionicShield:
+    此模型每次受到1点以上的伤害或致命伤害时，将伤害值变为1，每次受到伤害或致命伤害时，投d6，若为
+    3+，无视此伤害，若为5+，造成伤害的单位受到一点致命伤害，若为6+,此模型回复一点生命值或增加一点生命
+    上限。
+StarPsionicAttack:
+    此模型在近战阶段投d6，其武器增加该数值的伤害，若结果为5+，武器破甲值+3
+StarSwallower:
+    在你的每个英雄阶段，投d6，此模型此前消灭一个模型再多投一个d6,最多10d6，每有一个3+，此模型
+    回复一点生命，若超过生命上限，额外的值作为“替身使者(StandProtect)”的值
+StandProtect:
+    在你每个英雄阶段开始时，投d6，将该值作为你的“替身使者”点数，你可以在特定阶段消耗该点数使用以下能力
+    1.召唤替身(1)：可以双方任意阶段使用此能力，使用后，召唤一个替身放置在该模型2寸内，只要该替身存在于场上，
+                         敌方对该模型的,命中-1。此外，该替身被攻击时视作本体被攻击，若该替身存在于场上，每个阶段需消耗
+                         一点替身点数，若不足以支持其存在则消失。
+    2一瞬千击（2）：在近战阶段，对3寸内每个模型投d6，若为3+，则造成1点伤害
+    3星辰救赎（3）：在任意阶段开始时使用，回复d6点生命
+    4.咋瓦鲁多（8）：在任意阶段任意时刻使用，仅该模型可在进行一回合，此回合中只有该模型可进行行动，并且该额外回合中不能
+                    获得替身点数。
+'''

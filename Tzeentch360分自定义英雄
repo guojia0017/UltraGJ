@@ -1,22 +1,22 @@
 360
-tzeentch mortal
-	M*		W16		S2+	  	10	    4fp
-weapon
-	shield						          2fp
-	Axe							            1fp
+奸奇凡人英雄
+	M*(2-10)		W16		S2+	  	10			    4fp
+武器
+	盾牌										  2fp
+	斧子										  1fp
 	3 	4+	3+	-1	1	
-Mage
-	InfusionArcanum(5)
-	(6)
-GiantBeast						        15fp
-	claw
-		*(6)	2+	3+	-1	2
-	mouth
-		5	2+	2+	-2	*(4)
-	CrazyWildness.mouth*3		    3fp
-	FerocityWildness.mouth		  1fp
-	BruteWildness.mouth			    1fp
-	FerocityWildness.claw*2		  2fp
-Attribute
-	ExtraArmor*2				        4fp
-	ExtraWound*3				        3fp
+法术
+	奥能灌注(5)：施法者命中和造伤+1
+	
+巨兽坐骑											15fp
+	爪子
+		*(6-2)	2+	3+	-1	2
+	嘴
+		5	2+	2+	-2	*(4-1)
+	疯狂野性.嘴*3									3fp
+	凶暴野性.嘴										1fp
+	蛮力野性.嘴										1fp
+	凶暴野性.爪子*2								       2fp
+能力
+	附加装甲*2										 4fp
+	更强耐力*3										 3fp

@@ -1,0 +1,22 @@
+360
+tzeentch mortal
+	M*		W16		S2+	  	10	    4fp
+weapon
+	shield						          2fp
+	Axe							            1fp
+	3 	4+	3+	-1	1	
+Mage
+	InfusionArcanum(5)
+	(6)
+GiantBeast						        15fp
+	claw
+		*(6)	2+	3+	-1	2
+	mouth
+		5	2+	2+	-2	*(4)
+	CrazyWildness.mouth*3		    3fp
+	FerocityWildness.mouth		  1fp
+	BruteWildness.mouth			    1fp
+	FerocityWildness.claw*2		  2fp
+Attribute
+	ExtraArmor*2				        4fp
+	ExtraWound*3				        3fp
